@@ -69,7 +69,7 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 25%;
   border: 3px solid white;
   transition: all .5s;
 }
@@ -137,10 +137,25 @@ footer ul {
   padding: 0;
 }
 
-footer ul li {
+footer ul li 
+{
   display: inline-block;
 }
 
+.hobby
+{
+  padding-top: 5%;
+}
+
+.list li
+{
+  border-radius: 7px;
+  display: inline-block;
+  background-color: #222;
+  color: gray;
+  padding: 5px;
+
+}
 a.social {
   display: inline-block;
   text-indent: -9999px;
@@ -166,6 +181,7 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
@@ -203,10 +219,6 @@ a.social:hover {
     margin: 40px auto;
   }
 
-  #exp
-  {
-    color: #fff;
-  }
 
 }
 
